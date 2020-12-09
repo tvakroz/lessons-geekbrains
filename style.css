@@ -112,3 +112,24 @@ header{
     color: #f16d7f;
     background-color: #ffffff;
 }
+.nav-wrapper{
+    width: 755px;
+}
+.nav-ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+.nav-list{
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+.nav-link{
+    text-decoration: none;
+    color: #222222;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
