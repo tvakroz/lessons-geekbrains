@@ -37,7 +37,12 @@ header{
     font-weight: 300;
     font-family: "Lato";
     text-transform: uppercase;
-    margin-left: 25px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.logo-name:hover{
+    color: white;
+    background-color: black;
 }
 
 .logo-name-pink {
@@ -51,6 +56,8 @@ header{
 .header-nav-wrapper{
     margin-right: 345px;
     margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .nav-form {
     display: flex;
@@ -83,6 +90,10 @@ header{
     background-color: #ffffff;
     border: none;
 }
+.account-buy:hover{
+    color: blue;
+    outline: 10px solid blue;
+}
 .account-select{
     text-transform: capitalize;
     border: none;
@@ -96,4 +107,8 @@ header{
     padding-bottom: 11px;
     padding-right: 29px;
     margin-left: 23px;
+}
+.account-select:hover{
+    color: #f16d7f;
+    background-color: #ffffff;
 }
