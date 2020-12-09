@@ -1,0 +1,99 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    
+}
+header{
+   border-bottom: 1px solid #ececec;
+}
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.header-logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo-name {
+    font-size: 27px;
+    letter-spacing: 1px;
+    color: #222222;
+    font-weight: 300;
+    font-family: "Lato";
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.logo-name-pink {
+    font-size: 27px;
+    letter-spacing: 1px;
+    color: #f16d7f;
+    font-weight: 500;
+    font-family: "Lato";
+    text-transform: uppercase;
+}
+.header-nav-wrapper{
+    margin-right: 345px;
+    margin-left: 20px;
+}
+.nav-form {
+    display: flex;
+}
+
+.nav-browse {
+    text-transform: capitalize;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #222222;
+    font-weight: 300;
+    font-family: "Lato";
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+.nav-input{
+    width: 280px;
+}
+.nav-search{
+    padding: 10px;
+    color: #a4a4a4;
+}
+.account-form{
+    display: flex;
+}
+.account-buy{
+    background-color: #ffffff;
+    border: none;
+}
+.account-select{
+    text-transform: capitalize;
+    border: none;
+    background-color: #f16d7f;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: Lato;
+    font-weight: 400;
+    padding-left: 19px;
+    padding-top: 13px;
+    padding-bottom: 11px;
+    padding-right: 29px;
+    margin-left: 23px;
+}
