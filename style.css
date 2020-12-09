@@ -133,3 +133,52 @@ header{
     font-weight: 700;
     text-transform: uppercase;
 }
+.thebrand{
+    background-color: #e8e8e8;
+}
+.thebrand-wrapper{
+    background-image: url(images/thebrand/Layer24.png);
+    position: relative;
+    
+}
+.thebrand-boldtext{
+    font-size: 60px;
+    letter-spacing: 2px;
+    color: #222222;
+    font-weight: 900;
+    font-family: "Lato";
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 220px;
+    
+}
+.thebrand-text{
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #222222;
+    font-weight: 900;
+    font-family: "Lato";
+    text-align: left;
+    text-transform: uppercase;
+    padding-bottom: 295px;
+    
+}
+.thebrand-textpink{
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #f16d7f;
+    font-weight: 900;
+    font-family: "Lato";
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.thebrand-strip{
+    position: absolute;
+    width: 12px;
+    height: 98px;
+    background-color: #f16d7f;
+    left: -20px;
+    bottom: 305px;
+    
+}
